@@ -1,0 +1,6 @@
+---
+- hosts: workspace
+  become: yes
+  name: Maintenance
+  roles:
+    - workstation
